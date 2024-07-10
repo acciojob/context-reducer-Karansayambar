@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Login = () => {
+const LoginFile = () => {
     console.log("login page render")
     const [islogin , setIsLogin] = useState(false);
     const [data, setData] = useState('');
@@ -58,4 +58,4 @@ const Login = () => {
   )
 }
 
-export default Login;
+export default LoginFile;

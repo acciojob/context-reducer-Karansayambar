@@ -1,9 +1,9 @@
 import React from "react";
-import Login from "./login";
+import LoginFile from "./LoginFile";
 const App = () => {
   return (
     <>
-      <Login />
+      <LoginFile />
     </>
   );
 };
